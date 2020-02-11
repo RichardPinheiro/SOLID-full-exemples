@@ -1,13 +1,13 @@
 Liskov Substitution Principle (LSP)
 =====
 
-A definição do LSP que foi criado por Barbara Liskov, em 1988 (daí o nome), afirma 
-que "Classes derivadas devem poder ser substituídas por suas classes base".
+The definition of the LSP that was created by Barbara Liskov in 1988 (hence the name) states
+that "Derived classes should be able to be replaced by their base classes".
 
 
-“Se para cada objeto o1 do tipo S há um objeto o2 do tipo T de forma que, para todos os programas P definidos em 
-termos de T, o comportamento de P é inalterado quando o1 é substituído por o2 então S é um subtipo de T”
+“If for each o1 object of type S there is an o2 object of type T so that, for all P programs defined in
+terms of T, the behavior of P is unchanged when o1 is replaced by o2 so S is a subtype of T ”
 
 
-* Atender o LSP, significa que as classes derivadas são completamente substituíveis por suas classes-base, ou seja, 
-todo o código que utilizar a classe base será capaz de atender o LSP.
+* To meet the LSP, it means that the derived classes are completely replaceable by their base classes, that is,
+all code that uses the base class will be able to meet the LSP.
