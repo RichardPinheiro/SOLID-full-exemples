@@ -6,11 +6,15 @@ No exemplo abaixo a classe "Vehicle" foi transformada em abstrata e o metodo "tu
 estendem "Vehicle", desta forma, se criarmos um novo veículo, por exemplo "Truck", não será mais necessário alterar
 o código existente (método Driver::drive), necessitando apenas que "Truck" estenda "Vehicle" e implemente o método "turnOn".
 */
-namespace GSoares\SOLID\OpenClosed;
+namespace SOLID\OpenClosed;
 
 abstract class Vehicle 
 {
-    public function run(){}
+    public function run()
+    {
+        //Lógic
+    }
+
     abstract public function turnOn();
 }
 

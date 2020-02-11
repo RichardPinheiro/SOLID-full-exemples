@@ -14,7 +14,7 @@ a classe teria "dois motivos" para ser alterada:
 E isso vai contra o princípio de "Single Responsability Principle" que afirma que: 
     “Uma classe deve ter somente uma razão para mudar”.
 */
-namespace GSoares\SOLID\SingleResponsability;
+namespace SOLID\SingleResponsability;
 
 class NoBalanceAvailableException extends \Exception {}
 
@@ -45,8 +45,6 @@ class Sale
         if (!$this->haveBalanceAvailable($customer, $value)) {
             throw new NoBalanceAvailableException();
         }
-
-        /*..... something.....*/
         
         $this->setValue($value);
         $this->calculateBalance($customer);

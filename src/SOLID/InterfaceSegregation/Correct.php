@@ -8,7 +8,7 @@ interfaces mais específicas que pode ser usadas por mais classes com comportame
 */
 namespace GSoares\SOLID\InterfaceSegregation;
 
-interface Vehicle 
+interface Vehicle
 {
 	public function run();
 }
