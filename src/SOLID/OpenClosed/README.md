@@ -1,9 +1,8 @@
-Open/Closed Principle (OCP)
+Open / Closed Principle (OCP)
 =====
 
-A definição deste princípio OCP, que significa "Aberto e Fechado" afirma que: 
-“Uma classe deve estar aberta para extensão, mas fechada para alteração”.
+The definition of this OCP principle, which means "Open and Closed" states that:
+"A class must be open for extension, but closed for change".
 
-Para contemplar este princípio utilizamos de abastrações e poliforfismo. Ao estender um novo comportamento em uma 
-classe, devemos criar código novo e não alterar código existente.
- 
+To contemplate this principle we use abasations and polyporphism. When extending a new behavior in a
+class, we must create new code and not change existing code.
