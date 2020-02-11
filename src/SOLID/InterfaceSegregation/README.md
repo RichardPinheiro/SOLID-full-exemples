@@ -1,7 +1,7 @@
-Interface Segregation Principle (ISP)
+Segregation Principle Interface (ISP)
 =====
 
-A definição do ISP, ou o princípio da segregação de interface, afirma que: "Clientes não devem ser forçados a depender 
-de métodos que não usam", ou seja, classes não devem ser obrigadas a implementar metodos que não utilizam. 
+The ISP definition, or the principle of interface segregation, states that: "Customers should not be forced to depend
+of methods they do not use ", that is, classes should not be required to implement methods they do not use.
 
-* Este princípio trata da coesão das interfaces. 
+* This principle deals with the cohesion of the interfaces.
