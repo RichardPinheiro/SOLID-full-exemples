@@ -1,7 +1,7 @@
 Dependency Inversion Principle (DIP)
 =====
 
-A definição de DIP que significa "Inversão de Dependência" afirma que: 
+The definition of DIP which means "Dependency Inversion" states that:
 
-1) "Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações".
-2) "Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações."
+1) "High level modules must not depend on low level modules. Both must depend on abstractions".
+2) "Abstractions should not depend on details. Details should depend on abstractions."
