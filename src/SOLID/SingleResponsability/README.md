@@ -1,6 +1,6 @@
-Single Responsability Principle (SRP)
+Single Responsibility Principle (SRP)
 =====
 
-A definição de LRP que significa "Única Responsabilidade" afirma que: “Uma classe deve ter somente uma razão para mudar”, ou
-seja, uma classe deve apenas ter uma razão de existir e não cuidar de regras que não pertencem ao escopo de sua existência, 
-possuindo uma "responsabilidade única". 
+The definition of LRP meaning "Single Responsibility" states that: "A class must have only one reason to change", or
+that is, a class should only have a reason for existing and not take care of rules that do not belong to the scope of its existence,
+having a "sole responsibility".
